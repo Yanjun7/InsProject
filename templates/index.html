@@ -1,0 +1,10 @@
+<div>
+
+{% for post in object_list   %}
+    <a href ='/{% url 'post_dail' %} '>
+    <img src='{{post.image}}'></a>
+
+{%end%}
+
+
+</div>
